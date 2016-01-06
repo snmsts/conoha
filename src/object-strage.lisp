@@ -1,3 +1,9 @@
+(in-package :cl-user)
+(defpackage conoha.object-strage
+  (:use :cl :conoha.identity :conoha.conf)
+  (:export))
+
+(in-package :conoha.object-strage)
 #|
 <a href="swift-show_account_details_and_list_containers.html">アカウント情報取得</a>
 <a href="swift-set_account_quota.html">アカウントクォータ設定</a>

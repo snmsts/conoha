@@ -1,4 +1,9 @@
+(in-package :cl-user)
+(defpackage conoha.image
+  (:use :cl :conoha.identity :conoha.conf)
+  (:export))
 
+(in-package :conoha.image)
 #|
 <a href="image-get_version_list.html">バージョン情報取得</a>
 <a href="image-get_images_list.html">イメージ一覧取得(glance)</a>

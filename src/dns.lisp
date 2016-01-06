@@ -1,3 +1,9 @@
+(in-package :cl-user)
+(defpackage conoha.dns
+  (:use :cl :conoha.identity :conoha.conf)
+  (:export))
+
+(in-package :conoha.dns)
 #|
 <a href="paas-dns-get-version-list.html">バージョン情報取得</a>
 <a href="paas-dns-get-servers-hosting-a-domain.html">ドメインホスティング情報表示</a>

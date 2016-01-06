@@ -1,3 +1,9 @@
+(in-package :cl-user)
+(defpackage conoha.database-hosting
+  (:use :cl :conoha.identity :conoha.conf)
+  (:export))
+
+(in-package :conoha.database-hosting)
 #|
 <a href="paas-database-get-version-list.html">バージョン情報取得</a>
 <a href="paas-database-get-version-detail.html">バージョン情報詳細取得</a>

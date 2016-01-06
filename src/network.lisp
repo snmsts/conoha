@@ -1,3 +1,9 @@
+(in-package :cl-user)
+(defpackage conoha.network
+  (:use :cl :conoha.identity :conoha.conf)
+  (:export))
+
+(in-package :conoha.network)
 #|
 <a href="neutron-get_version_list.html">バージョン情報取得</a>
 <a href="neutron-get_version_detail.html">バージョン情報詳細取得</a>

@@ -1,3 +1,9 @@
+(in-package :cl-user)
+(defpackage conoha.mail-hosting
+  (:use :cl :conoha.identity :conoha.conf)
+  (:export))
+
+(in-package :conoha.mail-hosting)
 #|
 <a href="paas-mail-get-version-list.html">バージョン情報取得</a>
 <a href="paas-mail-get-version-detail.html">バージョン情報詳細取得</a>
